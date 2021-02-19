@@ -1,0 +1,114 @@
+/*
+
+███████████████████████████████████████████████████████████████
+    FILE PREPARED FOR ART185 AI Winter 2021 @UCSB
+    by Yin Yu
+
+Colors: 
+    Light yellow    #F2C359
+    Yellow          #E2B44E
+    light red       #EE7867
+    Red             #D94e49
+    Light grey      #494F55
+    dark grey       #363B3F
+
+    https://www.schemecolor.com/halloween-themed-color-schemes.php
+
+
+*/
+
+body {
+    background-color:black;
+    margin: 0;
+/*    width:100%;*/
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif; 
+    font-size: 6vmin;
+    letter-spacing:2px;
+    color: #494F55;
+    margin:40px;    
+}
+
+p {
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color:white;
+    opacity: 100%;
+    line-height: 16px;
+    margin:px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
+#box {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width:100%;
+    left:-40px; 
+}
+
+#cell a{
+    text-decoration: white;
+}
+
+#cell {
+    width:250px;
+/*    height:50px;*/
+    border-radius: 60px;
+    margin:25px;
+}
+#cell img {
+    width: 100%;
+}
+#cell video{
+    width: 100%;
+}
+
+#cell p {
+    color:grey;
+}
+
+#cell h2{
+    font-family:'Kumbh Sans', sans-serif;
+    color:lightgrey;
+    font-weight:600;
+    font-size: 20px;
+}
+#news p{
+    color:white;
+    font-size:14px;
+    
+}
+
+section.landing p{
+    margin:40px;
+}
+
+footer {
+    
+    background-color: grey;
+}
+
+footer p{
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    color:black;
+    opacity: 100%;
+    width: inherit;
+    text-align: center;
+    margin-top:12px;
+    margin-bottom:0px;
+}
+
